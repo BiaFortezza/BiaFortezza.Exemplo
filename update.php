@@ -18,7 +18,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+    <html lang="pt-br">
     <head>
         <meta charset="utf-8"
         <title>Editar Genero</title>

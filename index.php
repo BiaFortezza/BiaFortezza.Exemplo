@@ -38,6 +38,6 @@ $generos = $comando->fetchALL(PDO::FETCH_ASSOC);
                     <tr>
                 <?php endforeach ?>
             </table>
-        </main
+        </main>
     </body>
 </html>

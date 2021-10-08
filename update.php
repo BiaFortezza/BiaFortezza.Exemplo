@@ -22,14 +22,21 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
     <head>
         <meta charset="utf-8"
         <title>Editar Genero</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     </head>
     <body>
-        <h1>Editar Genero</h1>
-        <form action="update.php" method="post">
-            <input type="hidden" name="id" value="<?= $genero['id'] ?>"
-            <label for="nome">Nome do Genero</label>
-            <input type="text" required name="nome" value="<?= $genero['nome'] ?>" />
-            <button type="submit">Salvar</button>
-        </form>
+        <main class="conteiner">
+            <h1>Editar Genero</h1>
+            <form action="update.php" method="post">
+                <input type="hidden" name="id" value="<?= $genero['id'] ?>"
+                <div class="form-group">
+                    <label for="nome">Nome do Genero</label>
+                    <input class="form-control" type="text" required name="nome" value="<?= $genero['nome'] ?>" />
+                </div>
+                <br />
+                <a class="btn btn-secondary" href="index.php">Voltar<a/>
+                <button class="btn btn-success" type="submit">Salvar</button>
+            </form>
+        </main>
     </body>
 </html>

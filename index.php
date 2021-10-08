@@ -13,15 +13,14 @@ $generos = $comando->fetchALL(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="utf-8"
-        <tittle>Biblioteca</title>
+        <meta charset="utf-8">
+        <title>Biblioteca</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     </head>
     <body>
-        <main class="conteiner">
+        <main class="container">
         <a class="btn btn-primary" href="insert.php">Novo Genero</a>
         <table class="table">
-            <table>
                 <tr>
                     <th>Id</th>
                     <th>Nome</th>

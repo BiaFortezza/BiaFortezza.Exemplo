@@ -13,14 +13,20 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Novo Genero</title>
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     </head>
     <body>
-        <h1>Novo Genero</h1>
-        <form action="insert.php" method="post">
-            <label for="nome">Nome do Genero</label>
-            <input type="text" required name="name" />
-            <button type="submit">Salvar</button>
-        </form>
+        <main class="conteiner">
+            <h1>Novo Genero</h1>
+            <form action="insert.php" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome do Genero</label>
+                    <input class="form-control" type="text" required name="nome" />
+                </div>
+                <br />
+                <button class="btn btn-success" type="submit">Salvar</button>
+            </form>
+        </main>
     </body>
 </html>

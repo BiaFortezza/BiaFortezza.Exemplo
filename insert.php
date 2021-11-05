@@ -29,4 +29,4 @@ $_title ='Novo Genero';
                 <button class="btn btn-success" type="submit">Salvar</button>
             </form>
 
-<?php include('./includes/header.php') ?>
+<?php include('./includes/footer.php') ?>

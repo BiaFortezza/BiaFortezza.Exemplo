@@ -32,4 +32,4 @@ $_title ='Remover Genero';
                 <button class="btn btn-danger" type="submit">Excluir</button>
             </form>
 
-<?php include('./includes/header.php') ?>
+<?php include('./includes/footer.php') ?>

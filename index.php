@@ -36,4 +36,4 @@ $_title ='Generos';
             </table>
 
 
-<?php include('./includes/header.php') ?>
+<?php include('./includes/footer.php') ?>
